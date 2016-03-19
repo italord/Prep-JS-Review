@@ -80,9 +80,20 @@ Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
+var planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
+
+console.log(planets[2]);
+console.log(planets[6]);
+
+
+
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
+
+var india = ["New Dehli", "The Club", "The town"];
+
+console.log(india);
 
 /*8.  Declare a literal object named "hotel" with properties and values set to:
 
@@ -93,6 +104,10 @@ Console log the variable.*/
 
  console log the object*/
 
+ var hotel = {name: "Hilton", rooms: "200", pool: "true", checkIn: "null"};
+
+ console.log(hotel);
+
 /*9.  Declare a literal object named "car" with properties and values set to:
 
     make  => "BMW"
@@ -102,6 +117,10 @@ Console log the variable.*/
 
  console log the object*/
 
+ var car = {make: "BMW", model: "X5", year: "2015", doors: 4};
+
+console.log(car);
+
 /*10.  Declare a literal object named bigBox and set its value to be an empty object.
 
 Add a property named size and set it to a random number value between 0 and 50 (hint, use Math.something...)
@@ -109,6 +128,16 @@ Add a prperty named color and set it to any color.
 Add a property named contents and set it to be an empty array
 
 console log the object*/
+
+var bigBox = {}; 
+
+bigBox.size = Math.random()*50;
+bigBox.color = "Blue";
+bigBox.Contents = [];
+
+
+
+console.log(bigBox);
 
 
 /*11.  Declare a literal object named "colorMeBadd" with properties and values set to:
